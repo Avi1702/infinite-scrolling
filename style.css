@@ -1,0 +1,41 @@
+body{
+    background-color:chartreuse ;
+}
+#main{
+   width: 30%;
+   height: 200px;
+   margin: auto;
+   /* border: 1px solid black; */
+   padding: 10px;
+   margin-top: 50px;
+}
+input{
+    width: 93.5%;
+    height: 40px;
+    padding: 7px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.display{
+    /* height: 90%;
+    width: 93%;
+    overflow-y: scroll;
+    background-color:antiquewhite; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.display>div{
+    width: 90%;
+    height: 100px;
+    background-color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
